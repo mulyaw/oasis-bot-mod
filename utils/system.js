@@ -9,16 +9,16 @@ export function generateRandomId(length = 26) {
 
 function generateRandomCpuInfo() {
     const cpuModels = [
-        "AMD Ryzen 5 5600G with Radeon Graphics",
-        "Intel Core i7-9700K",
-        "AMD Ryzen 7 5800X",
-        "Intel Core i9-10900K",
-        "Intel Core i5-11600K",
-        "AMD Ryzen 9 5900X",
-        "Intel Core i7-12700K",
-        "AMD Ryzen 5 3600X",
+        "Intel Core I9-13900K",
+        "AMD EPYC 7742",
+        "AMD Ryzen 7950X3D",
+        "Intel Core I9-12900K",
+        "Intel Xeon E5-2682 V4",
+        "AMD EPYC 9354",
+        "Intel Core I9-9900K",
+        "AMD Ryzen 9 7950X",
         "Intel Core i9-11900K",
-        "AMD Ryzen 3 3200G"
+        "AMD Ryzen 9 3950X"
     ];
 
     const features = ["mmx", "sse", "sse2", "sse3", "ssse3", "sse4_1", "sse4_2", "avx"];
