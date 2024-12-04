@@ -18,7 +18,10 @@ function generateRandomCpuInfo() {
         "Intel Core I9-9900K",
         "AMD Ryzen 9 7950X",
         "Intel Core i9-11900K",
-        "AMD Ryzen 9 3950X"
+        "AMD Ryzen 9 3950X",
+        "Apple M3 Max",
+        "Apple M2 Ultra",
+        "Apple M2 Pro"
     ];
 
     const features = ["mmx", "sse", "sse2", "sse3", "ssse3", "sse4_1", "sse4_2", "avx"];
